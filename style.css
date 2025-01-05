@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+/* Gallery Section */
+.gallery {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery .images img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+/* Footer */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer label {
+    margin: 5px 0;
+}
+
+footer input, footer textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e8491d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #cf3e0b;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
